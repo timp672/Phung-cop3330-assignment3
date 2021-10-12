@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ex45{
+    +readAndReplace(Scanner scanFile,FileWriter writer)
+    +main( String[] args )
+    ~String string
+    ~File file
+    ~Scanner scan
+    ~Scanner scanFile
+    ~String outputFile
+    ~FileWriter writer
+}
+
+@enduml

@@ -1,0 +1,31 @@
+readfile method (scanner file, map si)
+{
+    while file has nextline
+    {
+        string str = file next
+        if(si containskey (str)
+            si put (str, si get str +1)
+        else
+            si put (str, 1)
+    }
+}
+print histogram method
+{
+    for (string key:si.keyset)
+    {
+        print formatted word with ":"
+        for (amount in si)
+            print "*"
+        print new line
+    }
+}
+
+main method
+{
+    scanner file input file
+    map si = map<string,integer>
+
+    call readfile
+
+    call printhistogram
+}

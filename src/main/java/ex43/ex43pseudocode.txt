@@ -1,0 +1,84 @@
+WebsiteCreator class
+{
+    string sitename
+    string author
+    string path
+
+    public string createwebsite
+        {
+            string filedirectory
+            create file
+
+            return directory
+        }
+
+    public string createjs
+        {
+            string filedirectory
+            create file
+
+            return directory
+        }
+
+    public string createcss
+        {
+            string filedirectory
+            create file
+
+            return directory
+        }
+
+    public string createhtml
+        {
+            string filedirectory
+            string html header
+
+            create file
+            try{
+                write in html format
+                close file
+                return directory
+            }
+            catch{
+                error in file
+            }
+
+            return directory
+        }
+}
+
+public class ex43
+{
+    main
+    {
+        scanner
+        newwebsite from websitecreator app
+
+        string sitename
+        string author
+        string readjs
+        string readcss
+
+        print user input
+        scan user input
+        newsite.string = input
+
+        print user input
+        scan user input
+        newsite.string = input
+
+        print ask for javascript
+        scan nextline
+
+        print ask for css
+        scan nextline
+
+        set path to where file will be
+
+        print output
+        if(css == y)
+            print created css
+        if(js == y)
+            print created js
+    }
+}

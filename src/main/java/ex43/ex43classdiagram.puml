@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ex43{
+    +main( String[] args)
+    ~Scanner scan
+    ~String siteName
+    ~String author
+    ~String readJS
+    ~String readCSS
+}
+class WebsiteCreator{
+    +createWebsite()
+    +createJS()
+    +createCSS()
+    +createHTML()
+    ~String directory
+    ~File folder
+    ~String html
+    ~BufferedWriter write
+}
+
+@enduml

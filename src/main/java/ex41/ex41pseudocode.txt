@@ -1,0 +1,25 @@
+
+public static void readfile
+    while (scan while file has nextline)
+
+
+public static void outputnames
+      write header in file
+      for string i : amount of names
+        write names in file
+
+      close file
+
+public static void main
+       scanner input file
+       array for names
+
+       sort names
+
+       close input file
+
+       try{
+            writing names
+       }catch{
+            error reading file
+       }

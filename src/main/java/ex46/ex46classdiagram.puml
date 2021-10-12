@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ex46{
+    +readFile(Scanner file, Map<String,Integer> SI)
+    +printHistogram(Map<String,Integer> SI)
+    +main( String[] args )
+    ~Scanner file
+    ~Map<String,Integer> SI
+    ~String key
+    ~String str
+}
+
+@enduml

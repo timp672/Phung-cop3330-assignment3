@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ex42{
+    +readNames(String names)
+    +main( String[] args )
+    ~File file
+    ~Scanner scan
+    ~String s
+    ~String [] temp;
+    ~ex42 name
+}
+
+@enduml

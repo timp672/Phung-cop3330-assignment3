@@ -1,0 +1,17 @@
+void readnames
+    try{
+        file scanner
+
+        while(file has next)
+        {
+            store next line in string
+            split strings ","
+            print and format %-13s
+        }
+    }catch{
+        error reading file
+    }
+
+void main
+    print header
+    call function to read names from in file

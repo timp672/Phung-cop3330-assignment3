@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ex41 {
+    +main( String[] args)
+    +readFile(Scanner scan, ArrayList<String> names)
+    +outputNames(ArrayList<String> names)
+    ~Scanner scan
+    ~FileWriter output
+    ~ArrayList<String> names
+}
+
+@enduml

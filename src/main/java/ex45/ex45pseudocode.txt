@@ -1,0 +1,30 @@
+void readandreplace
+{
+    try{
+        while(file has next input)
+        {
+            string = scanfile
+            string = replace all "utilize" to "use" in string
+
+            filewriter string
+            filewriter \n
+        }
+    }finally
+    {
+        close scanfile
+    }
+    close writer
+}
+
+void main
+{
+    scanner userinput
+    file inputfile
+    scanner scanfile
+
+    print enter name of output file
+    String outputfile = scan next
+
+    filewriter path + outputfile
+    read and replace
+}
